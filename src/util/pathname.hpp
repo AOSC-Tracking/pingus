@@ -19,6 +19,7 @@
 
 #include <string>
 #include <vector>
+#include <cstdint>
 
 /** Simple class to allow a distinction of paths that refer to the
  *  filesystem and paths that refer to the datadir, it also hides
