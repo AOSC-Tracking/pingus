@@ -66,7 +66,7 @@ install-data:
         \) -exec install -D {} $(DESTDIR)$(DATADIR)/{} \;
 
 install-man:
-	install -D doc/man/pingus.6 "$(DESTDIR)$(MANDIR)/man1/pingus.6"
+	install -D doc/man/pingus.6 "$(DESTDIR)$(MANDIR)/man6/pingus.6"
 
 .PHONY : clean install install-exec install-data install-man
 
